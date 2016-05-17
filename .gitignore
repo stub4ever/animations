@@ -12,6 +12,7 @@ src/scss/generic
 src/scss/layout
 src/scss/states
 src/scss/vendor
+src/scss/pages
 src/scss/style.scss
 
 browserconfig.xml
