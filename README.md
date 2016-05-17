@@ -1,4 +1,4 @@
 
-# 30 days animations challenge by follow random courses or experimental
+# 30 days animations challenge 
   
-### Checkout each branch
+Feel free to checkout each branch
