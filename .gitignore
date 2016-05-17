@@ -1,0 +1,23 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+
+node_modules/
+
+dist/
+src/scss/_base
+src/scss/_helpers
+src/scss/_utilities
+src/scss/components
+src/scss/generic
+src/scss/layout
+src/scss/states
+src/scss/vendor
+src/scss/style.scss
+
+browserconfig.xml
+crossdomain.xml
+human.txt
+robots.txt
+
+
+

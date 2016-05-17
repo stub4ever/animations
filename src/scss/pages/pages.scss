@@ -1,0 +1,86 @@
+// Pages
+
+// ==========================================================================
+// $Home
+// ==========================================================================
+@import "home";
+
+// ==========================================================================
+// $Components
+// ==========================================================================
+@import "components";
+
+
+body.body-demo {
+  position: relative;
+}
+
+.head-demo {
+  display:flex;
+  width: 100%;
+  > h4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .title > span {
+    font-size: 14.5px;
+    font-weight: 500;
+    color: $black;
+    opacity: 0.4;
+  }
+}
+
+.body-demo {
+  width: 100%;
+}
+
+.container--demo {
+  width: 100%;
+  @include media('<=1070px'){
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+  }
+}
+
+.wrapper--demo {
+  position: absolute;
+  flex-direction: column;;
+  top: 60px;
+  right: 0;
+  width: 100%;
+  margin: 30px auto;
+  padding: 20px 30px;
+  @include flex-align(center, null);
+  @include media('>1070px'){
+    padding: 20px 70px;
+    margin: 30px auto;
+    top: 60px;
+    width: 72.5%;
+  }
+   @include media('>1070px', '<=1375px'){
+    width: 80%;
+  }
+}
+
+
+/*------------------------------------*\
+    # Demo Styling border-bottom
+    \*------------------------------------*/
+
+    .has-text-shadow {
+     text-shadow: 2px 1px 3px rgba(0,0,0,0.1);
+   }
+
+// Border
+.has-border-bottom {
+  border-bottom: 5px solid $shadow-light;
+}
+.has-text-border-bottom {
+  border-bottom: 3px solid $light;
+  padding-bottom: 2px;
+}
+
+.has-border-shadow {
+ box-shadow: 0 3px 2.5px 0 rgba(0,0,0,0.1),0 2px 5px 0 rgba(0,0,0,0.12);
+}
