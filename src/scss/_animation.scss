@@ -5,6 +5,14 @@
   }
 }
 
+%block-background {
+  display: block;
+  background: black;
+  padding: 70px 0px;
+  transition:all 0.3s ease;
+}
+
+
 .block-text {
   margin: 0 auto;
   text-align: center;
@@ -12,9 +20,7 @@
   color: white;
 
   &--fadeIn {
-    display: block;
-    background: black;
-    padding: 70px 0px;
+    @extend %block-background;
     transition:all 0.3s ease;
     opacity: 0.5;
     &:hover{
@@ -23,9 +29,7 @@
   }
 
   &--grow {
-    display: block;
-    background: black;
-    padding: 70px 0px;
+    @extend %block-background;
     transition:all 0.3s ease;
     &:hover{
       transform: scale(1.3);
@@ -33,9 +37,7 @@
   }
 
   &--shrink {
-    display: block;
-    background: black;
-    padding: 70px 0px;
+    @extend %block-background;
     transition:all 0.3s ease;
     &:hover{
       transform: scale(0.8);
@@ -43,9 +45,7 @@
   }
 
   &--rotate {
-    display: block;
-    background: black;
-    padding: 70px 0px;
+    @extend %block-background;
     transition:all 0.3s ease;
     &:hover{
       transform: rotateZ(-360deg);
@@ -53,9 +53,7 @@
   }
 
   &--radius {
-    display: block;
-    background: black;
-    padding: 70px 0px;
+    @extend %block-background;
     transition:all 0.3s ease;
     &:hover{
       border-radius: 100px 100px;
@@ -63,9 +61,7 @@
   }
 
   &--3d-shadow {
-    display: block;
-    background: black;
-    padding: 70px 0px;
+    @extend %block-background;
     transition:all 0.3s ease;
     &:hover{
       box-shadow:
@@ -77,9 +73,7 @@
   }
 
   &--3d-shadow {
-    display: block;
-    background: black;
-    padding: 70px 0px;
+    @extend %block-background;
     transition:all 0.3s ease;
     &:hover{
       box-shadow:
@@ -91,9 +85,7 @@
   }
 
   &--inset-border {
-    display: block;
-    background: black;
-    padding: 70px 0px;
+    @extend %block-background;
     transition:all 0.3s ease;
     &:hover{
       box-shadow: inset 0 0 0px 20px #f7f7f7;
@@ -102,9 +94,7 @@
 
 
   &--swing {
-    display: block;
-    background: black;
-    padding: 70px 0px;
+    @extend %block-background;
     transition:all 0.3s ease;
 
     @-webkit-keyframes swing

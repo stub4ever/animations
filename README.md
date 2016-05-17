@@ -3,4 +3,4 @@
   
 Feel free to checkout each branch
 
-  day1: 8 simple CSS animations
+Day 1: 8 simple CSS animations
