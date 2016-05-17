@@ -18,6 +18,14 @@ browserconfig.xml
 crossdomain.xml
 human.txt
 robots.txt
+.bowerrc
+.htaccess
+.sass-lint.yml
+.travis.yml
+bower.json
+package.json
+gulpfile.js
+src/humans.txt
 
 
 
