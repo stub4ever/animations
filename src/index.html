@@ -45,6 +45,7 @@
       <link rel="icon" type="image/ico" href="favicon.ico">
       <link rel="icon" type="image/png" href="favicon.png">
 
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
       <link rel="stylesheet" href="css/styles.css">
 
@@ -54,57 +55,91 @@
     </head>
     <body>
 
-    <div class="container">
-       <h1> Sliding Header Grid Layout</h1>
-     </div>
-
-
      <div class="banner">
-      <div class="container">
-        <div class="banner --hero">
+       <img src="https://images.unsplash.com/photo-1461088778056-88bf6d3cefcd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=1e172b99ab259ff5d6e89324d6c28932" alt="" class="banner-background-intro">
+       <div class="container">
+        <div class="banner--content">
           <h1 class="banner-title">Essential Feelings</h1>
-          <div class="banner __hero-footer">
-            <div class="banner-icon">
-              <a href=""><i></i></a>
-              <span>/</span>
-              <a href=""><i></i></a>
+          <div class="banner__content-footer">
+            <div class="banner-group">
+              <div class="banner-icon">
+                <a href=""><i class="fa fa-arrow-left" aria-hidden="true"></i>
+                </a>
+                <span>/</span>
+                <a href="">
+                  <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                </a>
+              </div>
+              <p class="banner-description">
+                A layout with a sliding header and an image grid. Photo courtesy of <a class="banner-author" href="">Dan Rubin</a>.
+              </p>
             </div>
-            <p class="banner-description">
-              A layout with a sliding header and an image grid. Photo courtesy of <a href="" class="banner-author">Dan Rubin</a>.
-            </p>
-            <div class="banner-icon">
-              <a href="">
-                <i></i>
-                <i></i>
-                <i></i>
-                <i></i>
-              </a>
-            </div>
+
+            <button class="banner-trigger">
+              <svg width="100%" height="100%" viewBox="0 0 60 60" preserveAspectRatio="none">
+                <g class="icon icon--grid">
+                  <rect x="32.5" y="5.5" width="22" height="22"/>
+                  <rect x="4.5" y="5.5" width="22" height="22"/>
+                  <rect x="32.5" y="33.5" width="22" height="22"/>
+                  <rect x="4.5" y="33.5" width="22" height="22"/>
+                </g>
+                <g class="icon icon--cross">
+                  <line x1="4.5" y1="55.5" x2="54.953" y2="5.046"/>
+                  <line x1="54.953" y1="55.5" x2="4.5" y2="5.047"/>
+                </g>
+              </svg>
+            </button>
           </div>
         </div>
       </div>
+    </div>
 
 
-      <div class="cards --row">
-        <div class="card --col-4">
-          <a href="">
-            <img src="" alt=""></img>
-            <h3></h3>
-          </a>
-        </div>
+    <section class="card-wrap">
+
+      <div class="card-item">
+        <img class="card-item-image" src="https://images.unsplash.com/photo-1452473767141-7c6086eacf42?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bb189814ba9cda719e9cf9be1f0c2711" alt=""></img>
+        <h3 class="card-item-title">Mag</h3>
       </div>
 
+      <div class="card-item">
+        <img class="card-item-image" src="https://images.unsplash.com/photo-1452473767141-7c6086eacf42?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bb189814ba9cda719e9cf9be1f0c2711" alt=""></img>
+        <h3 class="card-item-title">Mag</h3>
+      </div>
+
+      <div class="card-item">
+        <img class="card-item-image" src="https://images.unsplash.com/photo-1452473767141-7c6086eacf42?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bb189814ba9cda719e9cf9be1f0c2711" alt=""></img>
+        <h3 class="card-item-title">Mag</h3>
+      </div>
+
+      <div class="card-item">
+        <img class="card-item-image" src="https://images.unsplash.com/photo-1452473767141-7c6086eacf42?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bb189814ba9cda719e9cf9be1f0c2711" alt=""></img>
+        <h3 class="card-item-title">Mag</h3>
+      </div>
+
+      <div class="card-item">
+        <img class="card-item-image" src="https://images.unsplash.com/photo-1452473767141-7c6086eacf42?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bb189814ba9cda719e9cf9be1f0c2711" alt=""></img>
+        <h3 class="card-item-title">Mag</h3>
+      </div>
+
+      <div class="card-item">
+        <img class="card-item-image" src="https://images.unsplash.com/photo-1452473767141-7c6086eacf42?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=bb189814ba9cda719e9cf9be1f0c2711" alt=""></img>
+        <h3 class="card-item-title">Mag</h3>
+      </div>
+
+    </section>
 
 
-      <!-- SCRIPTS -->
-      <!--  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+
+    <!-- SCRIPTS -->
+    <!--  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
 
 
 
-      <!-- app.js -->
-      <script src="js/app.js"></script>
+    <!-- app.js -->
+    <script src="js/app.js"></script>
 
-      <!-- Google Analytics -->
+    <!-- Google Analytics -->
 
-    </body>
-    </html>
+  </body>
+  </html>
