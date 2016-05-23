@@ -1,0 +1,15 @@
+html {
+@extend %border-box-on-every-element;
+ height: 100%;
+}
+
+body {
+  background-color: white;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+
+
