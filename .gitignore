@@ -28,8 +28,8 @@ app/styles/pages
 app/styles/states
 app/styles/utilities
 app/styles/vendor
-app/styles/global.scss
-app/styles/shame.scss
+app/styles/_global.scss
+app/styles/_shame.scss
 app/styles/main.scss
 
 docs
