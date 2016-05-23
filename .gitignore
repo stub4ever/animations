@@ -14,11 +14,12 @@ app/scripts/sw
 app/basic.html
 app/favicon.ico
 app/basic.html
-app/human.txt
+app/humans.txt
+app/.DS_Store
 app/manifest.json
 app/manifest.webapp
 app/robots.txt
-app/server-worker.js
+app/service-worker.js
 
 app/styles/base
 app/styles/components
@@ -43,3 +44,6 @@ bower.json
 package.json
 gulpfile.babel.js
 src/humans.txt
+.DS_Store
+.gitattributes
+LICENSE
