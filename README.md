@@ -6,3 +6,5 @@ Feel free to checkout each branch
   - day2: [Sliding-header-layout](http://tympanus.net/codrops/2014/12/23/sliding-header-layout/) (not finish)
   - day3: [Beginner CSS animation](http://webdesign.tutsplus.com/tutorials/a-beginners-introduction-to-css-animation--cms-21068)
   - day4: [Navigation link transition](http://www.newmediacampaigns.com/blog/nicer-navigation-with-css-transitions-part-2)
+  - day5: [Buffer's loading animation](https://cssanimation.rocks/buffer/)
+
